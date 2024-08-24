@@ -2,7 +2,7 @@ test:
 	./rebar3 eunit
 
 docs:
-	./rebar3 doc
+	./rebar3 edoc
 
 PLT ?= $(HOME)/.riak_combo_dialyzer_plt
 LOCAL_PLT = .local_dialyzer_plt
